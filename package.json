@@ -1,0 +1,37 @@
+{
+  "name": "@reliverse/rematch",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "@reliverse/rematch is a high-performance minimal glob matcher, with micromatch-level power, zepto-level size, and reliverse-grade dx.",
+  "scripts": {
+    "pub": "dler pub",
+    "dev": "bun example/e-mod.ts",
+    "latest": "bun update --latest && bun check",
+    "check": "tsc --noEmit && eslint --cache --fix . && biome check --fix --unsafe . && knip",
+    "tests": "bun test ./.tests"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@eslint/js": "^9.27.0",
+    "@reliverse/dler": "^1.3.6",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@types/bun": "^1.2.13",
+    "@types/node": "^22.15.19",
+    "eslint": "^9.27.0",
+    "eslint-plugin-no-relative-import-paths": "^1.6.1",
+    "eslint-plugin-perfectionist": "^4.13.0",
+    "grammex": "^3.1.10",
+    "knip": "^5.56.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  },
+  "keywords": [
+    "tiny",
+    "glob",
+    "match",
+    "matcher",
+    "zeptomatch",
+    "picomatch",
+    "micromatch"
+  ]
+}

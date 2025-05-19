@@ -1,0 +1,20 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "project": ["**/*.{ts,js}"],
+  "entry": [
+    "**/mod.ts",
+    ".tests/**/*.ts",
+    ".config/**/*.ts",
+    "**/*.{config,cfg}.{ts,js}",
+    "src/mod.ts",
+    "src/**/*-mod.ts"
+  ],
+  "ignore": [
+    "node_modules",
+    "dist-jsr",
+    "dist-npm",
+    "dist-libs",
+    ".config/rse.ts",
+    "src/constants.ts"
+  ]
+}

@@ -1,0 +1,17 @@
+LICENSES
+
+---
+
+MIT License
+
+Copyright (c) Nazar Kornienko (blefnk), Reliverse
+
+See LICENSE file for full license text.
+
+---
+
+NOTICES
+
+Some parts of this project are based on and significantly adapt:
+- https://github.com/micromatch/picomatch/tree/bf6a33b – MIT © Jon Schlinkert (jonschlinkert)
+- https://github.com/fabiospampinato/zeptomatch/tree/d9dce45 – MIT © Fabio Spampinato (fabiospampinato)
